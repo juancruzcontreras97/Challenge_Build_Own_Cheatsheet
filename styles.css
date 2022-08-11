@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(0, 255, 255, .8);
+    color: blueviolet;
+    margin: 20px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+table {
+    border: 2px solid tomato;
+    margin: 0 auto;
+    width: 60%;
+}
+
+thead {
+    font-weight: bold;
+    background-color: rgb(0, 0, 255, 0.65);
+}
+
+td {
+    border-top: 1px solid rgb(165, 100, 89);
+    white-space: nowrap; /* adjust cell to text size */
+    text-align: left;
+    padding: 10px 0 10px 10px;
+}
+
+.tag {
+    font-family: monospace;
+    background-color: beige;
+}
